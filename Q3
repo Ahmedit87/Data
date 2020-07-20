@@ -1,0 +1,5 @@
+SELECT Track.Name,Track.Composer,Album.Title
+FROM Track 
+JOIN Album 
+On Album.Albumid = Track.Albumid
+WHERE Name LIKE 'A%' AND Composer IS NOT NULL
