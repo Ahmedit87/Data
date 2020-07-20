@@ -1,0 +1,3 @@
+SELECT *
+FROM invoice 
+WHERE InvoiceDate >= '2013-01-01'
